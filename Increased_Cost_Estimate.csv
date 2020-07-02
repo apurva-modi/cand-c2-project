@@ -1,0 +1,16 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,529.98,56.959999999999994,1213.50,USD,"Operating system (Linux), Quantity (1), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (128 GB), Instance type (r6g.xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,118.31,1419.72,USD,"Operating system (Linux), Quantity (1), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (256 GB), Instance type (r6g.xlarge)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,30.8,369.60,USD,"Number of EC2 instances (4), Number of EIPs per instance (2), Number of EIP remaps (2)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,74.7,896.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),S3 Standard,0,4451.2,53414.40,USD,S3 Standard storage (200000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD,Data Transfer
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,7391.25,88695.00,USD,"Number of Classic Load Balancers (5), Processed bytes per CLB (250 GB per hour)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,1330.43,15965.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Average number of new TCP connections (50 per second), Processed bytes per NLB for UDP (50 GB per hour), Average TCP connection duration (1 minutes), Average number of new UDP Flows (100 per second), Processed bytes per NLB for TLS (150 GB per hour), Average number of new TLS connections (100 per second), Average UDP Flow duration (50 seconds), Average TLS connection duration (50 seconds)"
+My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,1124.72,13496.64,USD,"Change records per statement (0.38), (1 instances)  db.r5.4xlarge  Memory optimized  Reserved Instances  1yr  No Upfront, Storage amount (20 GB), Number of I/Os per month in millions (100), Additional backup storage (20 GB)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,5912.5,70950.00,USD,"Hosted Zones (25), Basic Checks Within AWS (15), Number of Elastic Network Interfaces (15)"
+My Estimate,US East (N. Virginia),AWS Lambda,0,0,0.00,USD,"Number of requests (1000), Concurrency (1000), Time for which Provisioned Concurrency is enabled (2 hours), Number of requests for Provisioned Concurrency (700)"
+
+"I Increased the Load Balancer, Routing and the Storage, by assuming more data and traffic for my social media "
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
